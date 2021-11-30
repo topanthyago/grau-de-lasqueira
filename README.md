@@ -2,7 +2,9 @@
  
 O programa resolve o seguinte problema:
 
-Considerando que, dados dois pontos em uma cidade, um motorista queira encontrar o caminho em que evite as ruas mais esburadas.
+Dados dois pontos em uma cidade, um motorista queira encontrar o caminho onde seja evitado as ruas mais esburadas.
 
-Pode ate passar por um trecho onde a soma dos buracos pode nao ser a otima.
-Mas sera garantido que o motorista andara pela rua com 
+Pode até passar por um trecho onde a soma dos buracos pode não seja otima.
+Mas será garantido que aquele é o trecho com menos buracos por rua.
+
+Foi utilizado Grafos com lista de adjacência, e algorítmo de Kruskal para a resolução do mesmo.
